@@ -8,6 +8,7 @@
  	background-image: url("https://raw.githubusercontent.com/chiefspace/aboutme/master/images/header5.jpg");
  	background-repeat: no-repeat;
     background-size: cover;
+    border-top: solid 1em #FFCF33;
 }
 
 .masthead-intro {
