@@ -5,7 +5,9 @@
 
 .masthead {
     padding: 6em 0;
- 	background-image: url("images/header5.jpg");
+ 	background-image: url("https://raw.githubusercontent.com/chiefspace/aboutme/master/images/header5.jpg");
+ 	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .masthead-intro {
