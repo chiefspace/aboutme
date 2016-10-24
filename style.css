@@ -1,0 +1,31 @@
+.masthead-intro,.masthead-heading{
+ 	text-align: center;
+ 	color: #ffffcc;
+}
+
+.masthead {
+    padding: 6em 0;
+ 	background-image: url("images/header5.jpg");
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+body {
+    background-color: #ffffcc;
+}
+
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('myfont.woff2') format('woff2'),
+        url('myfont.woff') format('woff');
+}
+
+body {
+  font-family: 'MyWebFont', Fallback, sans-serif;
+}
