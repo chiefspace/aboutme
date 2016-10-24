@@ -1,4 +1,6 @@
-.masthead-intro,.masthead-heading{
+.masthead-intro,
+.masthead-heading,
+.content-footer{
  	text-align: center;
  	color: #FFCF33;
 }
@@ -33,10 +35,20 @@ body {
   font-family: 'MyWebFont', Fallback, sans-serif;
 }
 
+.content-footer,
 .introduction-section,
 .location-section,
 .questions-section {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.content-footer > p {
+ color: white;
+ background: #FFCF33;
 }
